@@ -77,7 +77,7 @@ The list below is synchronized from my Google Scholar profile.
 - Academic Email: [zhuoran.xiong@mail.mcgill.ca](mailto:zhuoran.xiong@mail.mcgill.ca)
 - Google Scholar: [Profile](https://scholar.google.com/citations?user=NRkFv4EAAAAJ&hl=en&oi=sra)
 - GitHub: [paulxiongfree](https://github.com/paulxiongfree)
-- LinkedIn: [Profile](https://www.linkedin.com/feed/?trk=guest_homepage-basic_nav-header-signin)
+- LinkedIn: [Profile](https://www.linkedin.com/in/paul-zhuoran-xiong-56567a90/)
 - CV
 
 ---
