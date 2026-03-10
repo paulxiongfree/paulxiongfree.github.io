@@ -42,7 +42,7 @@ My current research interests include:
 ## Links
 
 - Academic Email: [zhuoran.xiong@mail.mcgill.ca](mailto:zhuoran.xiong@mail.mcgill.ca)
-- Google Scholar
+- Google Scholar: [Profile](https://scholar.google.com/citations?user=NRkFv4EAAAAJ&hl=en&oi=sra)
 - CV
 - GitHub
 - LinkedIn
