@@ -32,10 +32,45 @@ My current research interests include:
 
 ---
 
-## Selected Publication
+## Publications
 
-- **Zhuoran Xiong**, X. Y. Liu, S. Zhong, H. Y. Yang, and A. Walid.  
-  _[Practical deep reinforcement learning approach for stock trading](https://arxiv.org/abs/1811.07522)_. 2018.
+The list below is synchronized from my Google Scholar profile.
+
+- **Zero-Shot NAS for TinyML Semantic Segmentation via Weight Sharing**  
+  Z Xiong, WJ Gross, BH Meyer.  
+  _IEEE Embedded Systems Letters, 2026_, 2026.
+
+- **Homogeneous graph neural networks for third-party library recommendation**  
+  D Li, Y Gao, Z Wang, H Qiu, P Liu, Z Xiong, Z Zhang.  
+  _Information Processing &amp; Management 61 (6), 103831, 2024_, 2024. — Cited by 21
+
+- **Fmas: Fast multi-objective supernet architecture search for semantic segmentation**  
+  Z Xiong, M Amein, O Therrien, WJ Gross, BH Meyer.  
+  _arXiv preprint arXiv:2303.16322, 2023_, 2023. — Cited by 3
+
+- **Work-in-progress: Supernas: Fast multi-objective supernet architecture search for semantic segmentation**  
+  M Amein, Z Xiong, O Therrien, BH Meyer, WJ Gross.  
+  _2022 International Conference on Compilers, Architecture, and Synthesis for …, 2022_, 2022. — Cited by 1
+
+- **SSS3D: Fast Neural Architecture Search for Efcient Three-Dimensional Semantic Segmentation**  
+  O Therrien.  
+  _McGill University (Canada), 2022_, 2022. — Cited by 1
+
+- **Practical deep reinforcement learning approach for stock trading**  
+  XY Liu, Z Xiong, S Zhong, H Yang, A Walid.  
+  _arXiv preprint arXiv:1811.07522, 2018_, 2018. — Cited by 304
+
+- **Target recognition of 3-d synthetic aperture radar images via deep belief network**  
+  L Pu, X Zhang, S Wei, X Fan, Z Xiong.  
+  _2016 CIE International Conference on Radar (RADAR), 1-5, 2016_, 2016. — Cited by 11
+
+- **Practical Deep Reinforcement Learning Approach for Stock Trading. arXiv 2018**  
+  XY Liu, Z Xiong, S Zhong, H Yang, A Walid.  
+  _arXiv preprint arXiv:1811.07522, 1811_, 1811. — Cited by 7
+
+- **Practical deep reinforcement learning approach for stock trading. arXiv 2018**  
+  Z Xiong, XY Liu, S Zhong, H Yang, A Walid.  
+  _arXiv preprint arXiv:1811.07522, 0_, . — Cited by 11
 
 ---
 
@@ -44,8 +79,8 @@ My current research interests include:
 - Academic Email: [zhuoran.xiong@mail.mcgill.ca](mailto:zhuoran.xiong@mail.mcgill.ca)
 - Google Scholar: [Profile](https://scholar.google.com/citations?user=NRkFv4EAAAAJ&hl=en&oi=sra)
 - GitHub: [paulxiongfree](https://github.com/paulxiongfree)
+- LinkedIn: [Profile](https://www.linkedin.com/feed/?trk=guest_homepage-basic_nav-header-signin)
 - CV
-- LinkedIn
 
 ---
 
