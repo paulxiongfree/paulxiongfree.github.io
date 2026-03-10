@@ -114,7 +114,7 @@ a:hover { text-decoration: underline; }
   text-align: center;
   color: var(--muted);
   margin: 6px 0;
-  font-size: 0.95rem;
+  font-size: 0.86rem;
 }
 
 .link-list {
@@ -128,11 +128,11 @@ a:hover { text-decoration: underline; }
   display: flex;
   align-items: center;
   gap: 10px;
-  padding: 10px 2px;
+  padding: 8px 2px;
   color: var(--muted);
   border-bottom: 1px solid var(--line);
   background: transparent;
-  font-size: 0.95rem;
+  font-size: 0.86rem;
   transition: color 0.18s ease, border-color 0.18s ease;
 }
 
@@ -146,7 +146,7 @@ a:hover { text-decoration: underline; }
   width: 16px;
   text-align: center;
   color: var(--accent);
-  font-size: 0.95rem;
+  font-size: 0.86rem;
 }
 
 .content {
