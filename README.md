@@ -2,7 +2,7 @@
 
 _PhD Candidate, McGill University_
 
-I am a PhD candidate in the Department of Electrical and Computer Engineering at McGill University. My research lies broadly in **deep learning**, **efficient AI systems**, and **machine learning optimization**, with interests in topics such as TinyML, model compression, and neural architecture search.
+I am a PhD candidate in the Department of Electrical and Computer Engineering at McGill University, advised by **Brett H. Meyer**. My research lies broadly in **deep learning**, **efficient AI systems**, and **machine learning optimization**, with interests in topics such as TinyML, model compression, and neural architecture search.
 
 ---
 
@@ -43,8 +43,8 @@ My current research interests include:
 
 - Academic Email: [zhuoran.xiong@mail.mcgill.ca](mailto:zhuoran.xiong@mail.mcgill.ca)
 - Google Scholar: [Profile](https://scholar.google.com/citations?user=NRkFv4EAAAAJ&hl=en&oi=sra)
+- GitHub: [paulxiongfree](https://github.com/paulxiongfree)
 - CV
-- GitHub
 - LinkedIn
 
 ---
