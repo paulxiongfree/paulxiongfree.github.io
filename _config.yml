@@ -1,5 +1,7 @@
 theme: jekyll-theme-minimal
 title: [Zhuoran Xiong]
 description: [PhD Candidate at McGill University]
+url: "https://paulxiongfree.github.io"
+baseurl: ""
 logo: /thumbnail.png
 show_downloads: false
