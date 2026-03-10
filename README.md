@@ -1,30 +1,58 @@
 # Zhuoran Xiong
 
-PhD Candidate at McGill University
+_PhD Candidate, McGill University_
 
-I am a PhD candidate in the Department of Electrical and Computer Engineering at McGill University. My research interests broadly include deep learning, efficient machine learning systems, and related topics in AI deployment and optimization.
+I am a PhD candidate in the Department of Electrical and Computer Engineering at McGill University. My research lies broadly in **deep learning**, **efficient AI systems**, and **machine learning optimization**, with interests in topics such as TinyML, model compression, and neural architecture search.
 
-## About
+---
 
-I am currently pursuing my PhD at McGill University. My academic work focuses on machine learning and deep learning, with an interest in building practical and efficient intelligent systems.
+## Biography
 
-## Education
+Welcome to my academic homepage. I am currently pursuing my PhD at McGill University, where I work on machine learning systems and efficient deep learning methods. My goal is to build practical AI models that are not only accurate, but also efficient, deployable, and scalable.
 
-- **PhD Candidate**, McGill University, Canada
-- **Master's Degree**, Columbia University, USA (2017–2018)
-- **Bachelor's Degree**, Xidian University, China (2013–2018)
+---
 
 ## Research Interests
 
-- Deep Learning
-- Efficient AI / TinyML
-- Neural Architecture Search
-- Model Compression and Optimization
+My current research interests include:
 
-## Publication
+- **Deep Learning**
+- **Efficient AI / TinyML**
+- **Neural Architecture Search**
+- **Model Compression and Optimization**
+- **Embedded and Resource-Constrained Machine Learning**
 
-- _[Practical deep reinforcement learning approach for stock trading](https://arxiv.org/abs/1811.07522)_, **Z. Xiong**, X. Y. Liu, S. Zhong, H. Y. Yang, A. Walid, 2018
+---
+
+## Education
+
+- **PhD Candidate**, McGill University, Canada  
+- **M.S.**, Columbia University, USA, 2017–2018  
+- **B.Eng.**, Xidian University, China, 2013–2018  
+
+---
+
+## Selected Publication
+
+- **Zhuoran Xiong**, X. Y. Liu, S. Zhong, H. Y. Yang, and A. Walid.  
+  _[Practical deep reinforcement learning approach for stock trading](https://arxiv.org/abs/1811.07522)_. 2018.
+
+---
+
+## Links
+
+You can add the following here later:
+
+- Google Scholar
+- CV
+- GitHub
+- LinkedIn
+- Academic Email
+
+---
 
 ## Contact
 
-You can update this section later with your academic email, Google Scholar, GitHub, CV, or LinkedIn.
+Please feel free to reach out for academic collaboration, research discussion, or related inquiries.
+
+_Email and professional links can be added here._
