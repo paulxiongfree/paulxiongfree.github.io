@@ -2,13 +2,13 @@
 
 _PhD Candidate, McGill University_
 
-I am a PhD candidate in the Department of Electrical and Computer Engineering at McGill University, advised by **Brett H. Meyer**. My research lies broadly in **deep learning**, **efficient AI systems**, and **machine learning optimization**, with interests in topics such as TinyML, model compression, and neural architecture search.
+I am a PhD candidate in the Department of Electrical and Computer Engineering at McGill University, advised by [Brett H. Meyer](https://www.mcgill.ca/ece/brett-meyer) and [Warren J. Gross](https://www.mcgill.ca/ece/warren-gross). My research lies broadly in **deep learning**, **efficient AI systems**, and **machine learning optimization**, with interests in topics such as TinyML, model compression, and neural architecture search.
 
 ---
 
 ## Biography
 
-Welcome to my academic homepage. I am currently pursuing my PhD at McGill University, where I work on machine learning systems and efficient deep learning methods. My goal is to build practical AI models that are not only accurate, but also efficient, deployable, and scalable.
+Welcome to my academic homepage: <https://paulxiongfree.github.io>. I am currently pursuing my PhD at McGill University, where I work on machine learning systems and efficient deep learning methods. My goal is to build practical AI models that are not only accurate, but also efficient, deployable, and scalable.
 
 ---
 
@@ -34,14 +34,19 @@ Welcome to my academic homepage. I am currently pursuing my PhD at McGill Univer
 
 The list below is synchronized from my Google Scholar profile.
 
+- **TinySegPrune: Multi-Objective Pruning for Semantic Segmentation Networks on TinyML Hardware**  
+  Z Xiong, WJ Gross, BH Meyer.  
+  _2026 International Joint Conference on Neural Networks (IJCNN), 1-8_.
+
 - **Zero-Shot NAS for TinyML Semantic Segmentation via Weight Sharing**  
   Z Xiong, WJ Gross, BH Meyer.  
-  _IEEE Embedded Systems Letters, 2026_.
+  _IEEE Embedded Systems Letters, 2026_.  
+  **Citations:** 1
 
 - **Homogeneous graph neural networks for third-party library recommendation**  
   D Li, Y Gao, Z Wang, H Qiu, P Liu, Z Xiong, Z Zhang.  
   _Information Processing & Management 61 (6), 103831, 2024_.  
-  **Citations:** 21
+  **Citations:** 28
 
 - **Fmas: Fast multi-objective supernet architecture search for semantic segmentation**  
   Z Xiong, M Amein, O Therrien, WJ Gross, BH Meyer.  
@@ -61,12 +66,12 @@ The list below is synchronized from my Google Scholar profile.
 - **Practical deep reinforcement learning approach for stock trading**  
   XY Liu, Z Xiong, S Zhong, H Yang, A Walid.  
   _arXiv preprint arXiv:1811.07522, 2018_.  
-  **Citations:** 304
+  **Citations:** 325
 
 - **Target recognition of 3-d synthetic aperture radar images via deep belief network**  
   L Pu, X Zhang, S Wei, X Fan, Z Xiong.  
   _2016 CIE International Conference on Radar (RADAR), 1-5_.  
-  **Citations:** 11
+  **Citations:** 12
 
 ---
 
