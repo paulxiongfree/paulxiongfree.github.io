@@ -36,42 +36,43 @@ The list below is synchronized from my Google Scholar profile.
 
 - **TinySegPrune: Multi-Objective Pruning for Semantic Segmentation Networks on TinyML Hardware**  
   Z Xiong, WJ Gross, BH Meyer.  
-  _2026 International Joint Conference on Neural Networks (IJCNN), 1-8_.
+  _2026 International Joint Conference on Neural Networks (IJCNN), pp. 1–8_.  
+  [DOI](https://doi.org/10.1109/IJCNN69854.2026.11728989)
 
 - **Zero-Shot NAS for TinyML Semantic Segmentation via Weight Sharing**  
   Z Xiong, WJ Gross, BH Meyer.  
-  _IEEE Embedded Systems Letters, 2026_.  
-  **Citations:** 1
+  _IEEE Embedded Systems Letters, vol. 18, no. 5, pp. 492–495, 2026_.  
+  [DOI](https://doi.org/10.1109/LES.2026.3656808) · [Cited by 1](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17620467403236234977)
 
 - **Homogeneous graph neural networks for third-party library recommendation**  
   D Li, Y Gao, Z Wang, H Qiu, P Liu, Z Xiong, Z Zhang.  
-  _Information Processing & Management 61 (6), 103831, 2024_.  
-  **Citations:** 28
+  _Information Processing & Management, vol. 61, no. 6, art. 103831, 2024_.  
+  [DOI](https://doi.org/10.1016/j.ipm.2024.103831) · [Cited by 28](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1217904104308530319)
 
-- **Fmas: Fast multi-objective supernet architecture search for semantic segmentation**  
+- **FMAS: Fast Multi-Objective SuperNet Architecture Search for Semantic Segmentation**  
   Z Xiong, M Amein, O Therrien, WJ Gross, BH Meyer.  
   _arXiv preprint arXiv:2303.16322, 2023_.  
-  **Citations:** 3
+  [DOI](https://doi.org/10.48550/arXiv.2303.16322) · [arXiv](https://arxiv.org/abs/2303.16322) · [Cited by 3](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13790720158120568287)
 
-- **Work-in-progress: Supernas: Fast multi-objective supernet architecture search for semantic segmentation**  
+- **SSS3D: Fast Neural Architecture Search for Efficient Three-Dimensional Semantic Segmentation**  
+  O Therrien, M Amein, Z Xiong, WJ Gross, BH Meyer.  
+  _TinyML Research Symposium; arXiv:2304.11207, 2023_.  
+  [DOI](https://doi.org/10.48550/arXiv.2304.11207) · [arXiv](https://arxiv.org/abs/2304.11207) · [Cited by 1](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11659813969337722318)
+
+- **Work-in-Progress: SuperNAS: Fast Multi-Objective SuperNet Architecture Search for Semantic Segmentation**  
   M Amein, Z Xiong, O Therrien, BH Meyer, WJ Gross.  
-  _2022 International Conference on Compilers, Architecture, and Synthesis for …_.  
-  **Citations:** 1
-
-- **SSS3D: Fast Neural Architecture Search for Efcient Three-Dimensional Semantic Segmentation**  
-  O Therrien.  
-  _McGill University (Canada), 2022_.  
-  **Citations:** 1
+  _2022 International Conference on Compilers, Architecture, and Synthesis for Embedded Systems (CASES), pp. 35–36_.  
+  [DOI](https://doi.org/10.1109/CASES55004.2022.00024) · [Cited by 1](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3610872140534183541)
 
 - **Practical deep reinforcement learning approach for stock trading**  
   XY Liu, Z Xiong, S Zhong, H Yang, A Walid.  
-  _arXiv preprint arXiv:1811.07522, 2018_.  
-  **Citations:** 325
+  _NeurIPS 2018 Workshop on Challenges and Opportunities for AI in Financial Services; arXiv:1811.07522_.  
+  [DOI](https://doi.org/10.48550/arXiv.1811.07522) · [arXiv](https://arxiv.org/abs/1811.07522) · [Cited by 325](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13675880629859269162,3604112848540219365)
 
-- **Target recognition of 3-d synthetic aperture radar images via deep belief network**  
+- **Target Recognition of 3-D Synthetic Aperture Radar Images via Deep Belief Network**  
   L Pu, X Zhang, S Wei, X Fan, Z Xiong.  
-  _2016 CIE International Conference on Radar (RADAR), 1-5_.  
-  **Citations:** 12
+  _2016 CIE International Conference on Radar (RADAR), pp. 1–5_.  
+  [DOI](https://doi.org/10.1109/RADAR.2016.8059199) · [Cited by 12](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2028795258185390041)
 
 ---
 

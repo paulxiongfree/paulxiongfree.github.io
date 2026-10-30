@@ -1,0 +1,49 @@
+{
+  "tinysegprune multiobjective pruning for semantic segmentation networks on tinyml hardware": {
+    "venue": "2026 International Joint Conference on Neural Networks (IJCNN), pp. 1–8",
+    "doi": "10.1109/IJCNN69854.2026.11728989"
+  },
+  "zeroshot nas for tinyml semantic segmentation via weight sharing": {
+    "venue": "IEEE Embedded Systems Letters, vol. 18, no. 5, pp. 492–495",
+    "doi": "10.1109/LES.2026.3656808"
+  },
+  "homogeneous graph neural networks for thirdparty library recommendation": {
+    "venue": "Information Processing & Management, vol. 61, no. 6, art. 103831",
+    "doi": "10.1016/j.ipm.2024.103831"
+  },
+  "fmas fast multiobjective supernet architecture search for semantic segmentation": {
+    "title": "FMAS: Fast Multi-Objective SuperNet Architecture Search for Semantic Segmentation",
+    "venue": "arXiv preprint arXiv:2303.16322",
+    "doi": "10.48550/arXiv.2303.16322",
+    "links": {
+      "arXiv": "https://arxiv.org/abs/2303.16322"
+    }
+  },
+  "workinprogress supernas fast multiobjective supernet architecture search for semantic segmentation": {
+    "title": "Work-in-Progress: SuperNAS: Fast Multi-Objective SuperNet Architecture Search for Semantic Segmentation",
+    "venue": "2022 International Conference on Compilers, Architecture, and Synthesis for Embedded Systems (CASES), pp. 35–36",
+    "doi": "10.1109/CASES55004.2022.00024"
+  },
+  "sss3d fast neural architecture search for efcient threedimensional semantic segmentation": {
+    "title": "SSS3D: Fast Neural Architecture Search for Efficient Three-Dimensional Semantic Segmentation",
+    "authors": "O Therrien, M Amein, Z Xiong, WJ Gross, BH Meyer",
+    "year": "2023",
+    "venue": "TinyML Research Symposium; arXiv:2304.11207",
+    "doi": "10.48550/arXiv.2304.11207",
+    "links": {
+      "arXiv": "https://arxiv.org/abs/2304.11207"
+    }
+  },
+  "practical deep reinforcement learning approach for stock trading": {
+    "venue": "NeurIPS 2018 Workshop on Challenges and Opportunities for AI in Financial Services; arXiv:1811.07522",
+    "doi": "10.48550/arXiv.1811.07522",
+    "links": {
+      "arXiv": "https://arxiv.org/abs/1811.07522"
+    }
+  },
+  "target recognition of 3d synthetic aperture radar images via deep belief network": {
+    "title": "Target Recognition of 3-D Synthetic Aperture Radar Images via Deep Belief Network",
+    "venue": "2016 CIE International Conference on Radar (RADAR), pp. 1–5",
+    "doi": "10.1109/RADAR.2016.8059199"
+  }
+}

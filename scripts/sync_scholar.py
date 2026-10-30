@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import html
+import json
 import re
 import sys
 import urllib.request
@@ -108,6 +109,7 @@ def parse_pubs(page: str):
         blocks = re.findall(r'<div class="gs_gray">(.*?)</div>', row, re.S)
         year_m = re.search(r'<span class="gsc_a_h gsc_a_hc gs_ibl">(\d{4})</span>', row)
         cites_m = re.search(r'class="gsc_a_ac gs_ibl">(.*?)</a>', row, re.S)
+        cites_href_m = re.search(r'href="([^"]*)" class="gsc_a_ac gs_ibl"', row)
         if not title_m:
             continue
         title = re.sub(r'<.*?>', '', title_m.group(1)).strip()
@@ -121,6 +123,7 @@ def parse_pubs(page: str):
             'venue': clean_venue(venue, year),
             'year': year,
             'cites': int(cites) if cites.isdigit() else 0,
+            'cites_url': html.unescape(cites_href_m.group(1)) if cites_href_m and cites.isdigit() else '',
         })
 
     dedup = {}
@@ -130,6 +133,29 @@ def parse_pubs(page: str):
         if not prev or pub['cites'] > prev['cites'] or len(pub['year']) > len(prev['year']):
             dedup[key] = pub
     return sorted(dedup.values(), key=lambda p: p['year'] or '0000', reverse=True)
+
+
+def apply_meta(pubs):
+    # Scholar lacks DOIs and full venue details; fill them from the hand-curated pub_meta.json.
+    meta = json.loads((REPO / 'scripts' / 'pub_meta.json').read_text())
+    for pub in pubs:
+        extra = meta.get(normalize_title(pub['title']), {})
+        for key in ('title', 'authors', 'venue', 'year'):
+            if key in extra:
+                pub[key] = extra[key]
+        pub['doi'] = extra.get('doi', '')
+        pub['links'] = extra.get('links', {})
+    return sorted(pubs, key=lambda p: p['year'] or '0000', reverse=True)
+
+
+def link_list(pub):
+    links = []
+    if pub['doi']:
+        links.append(('DOI', f"https://doi.org/{pub['doi']}"))
+    links.extend(pub['links'].items())
+    if pub['cites_url']:
+        links.append((f"Cited by {pub['cites']}", pub['cites_url']))
+    return links
 
 
 def venue_year(pub):
@@ -148,8 +174,9 @@ def render_readme_publications(pubs):
             f"  {pub['authors']}.  \n"
             f"  _{venue_year(pub)}_."
         )
-        if pub['cites']:
-            block += f"  \n  **Citations:** {pub['cites']}"
+        links = link_list(pub)
+        if links:
+            block += "  \n  " + " · ".join(f"[{label}]({url})" for label, url in links)
         blocks.append(block)
     return "\n\n".join(blocks) + "\n"
 
@@ -163,13 +190,21 @@ def render_pub_html(pubs):
     for year, year_pubs in by_year.items():
         items = []
         for pub in year_pubs:
-            cite_html = f"\n                <p><strong>Citations:</strong> {pub['cites']}</p>" if pub['cites'] else ''
+            links = link_list(pub)
+            links_html = (
+                "\n                <p class=\"pub-links\">"
+                + "".join(f'<a href="{html.escape(url)}" target="_blank" rel="noreferrer">{html.escape(label)}</a>' for label, url in links)
+                + "</p>"
+            ) if links else ''
+            title_html = html.escape(pub['title'])
+            if pub['doi']:
+                title_html = f'<a href="https://doi.org/{html.escape(pub["doi"])}" target="_blank" rel="noreferrer">{title_html}</a>'
             items.append(
                 "\n".join([
                     '              <article class="pub-item">',
-                    f"                <h3>{html.escape(pub['title'])}</h3>",
+                    f"                <h3>{title_html}</h3>",
                     f"                <p>{html.escape(pub['authors'])}</p>",
-                    f"                <p><em>{html.escape(venue_year(pub))}</em></p>{cite_html}",
+                    f"                <p><em>{html.escape(venue_year(pub))}</em></p>{links_html}",
                     '              </article>',
                 ])
             )
@@ -202,7 +237,7 @@ def update_index(pubs):
 def main():
     page = fetch(SCHOLAR_URL)
     photo_ok = download_photo(page)
-    pubs = parse_pubs(page)
+    pubs = apply_meta(parse_pubs(page))
     (REPO / 'README.md').write_text(README_HEADER + render_readme_publications(pubs) + README_FOOTER)
     update_index(pubs)
     print(f"photo_downloaded={photo_ok}")
