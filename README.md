@@ -26,7 +26,7 @@ Welcome to my academic homepage: <https://paulxiongfree.github.io>. I am current
 
 - **PhD Candidate**, McGill University, Canada  
 - **M.S.**, Columbia University, USA, 2017–2018  
-- **B.Eng.**, Xidian University, China, 2013–2018  
+- **B.Eng.**, Xidian University, China, 2013–2017  
 
 ---
 
