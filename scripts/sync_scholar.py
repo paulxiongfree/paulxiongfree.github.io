@@ -15,9 +15,9 @@ PHOTO_RE = r'https://scholar\.googleusercontent\.com/citations\?view_op=medium_p
 
 README_HEADER = """# Zhuoran Xiong
 
-_PhD Candidate, McGill University_
+_PhD, McGill University_
 
-I am a PhD candidate in the Department of Electrical and Computer Engineering at McGill University, advised by [Brett H. Meyer](https://www.mcgill.ca/ece/brett-meyer) and [Warren J. Gross](https://www.mcgill.ca/ece/warren-gross). My research lies broadly in **deep learning**, **efficient AI systems**, and **machine learning optimization**, with interests in topics such as TinyML, model compression, and neural architecture search.
+I received my PhD from the Department of Electrical and Computer Engineering at McGill University, advised by [Brett H. Meyer](https://www.mcgill.ca/ece/brett-meyer) and [Warren J. Gross](https://www.mcgill.ca/ece/warren-gross). My research lies broadly in **deep learning**, **efficient AI systems**, and **machine learning optimization**, with interests in topics such as TinyML, model compression, and neural architecture search.
 
 ---
 
@@ -39,7 +39,7 @@ Welcome to my academic homepage: <https://paulxiongfree.github.io>. I am current
 
 ## Education
 
-- **PhD Candidate**, McGill University, Canada  
+- **PhD**, McGill University, Canada, 2019–2026  
 - **M.S.**, Columbia University, USA, 2017–2018  
 - **B.Eng.**, Xidian University, China, 2013–2017  
 
