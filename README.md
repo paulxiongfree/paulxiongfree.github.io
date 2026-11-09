@@ -67,7 +67,7 @@ The list below is synchronized from my Google Scholar profile.
 - **Practical deep reinforcement learning approach for stock trading**  
   XY Liu, Z Xiong, S Zhong, H Yang, A Walid.  
   _NeurIPS 2018 Workshop on Challenges and Opportunities for AI in Financial Services; arXiv:1811.07522_.  
-  [DOI](https://doi.org/10.48550/arXiv.1811.07522) · [arXiv](https://arxiv.org/abs/1811.07522) · [Cited by 325](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13675880629859269162,3604112848540219365)
+  [DOI](https://doi.org/10.48550/arXiv.1811.07522) · [arXiv](https://arxiv.org/abs/1811.07522) · [Cited by 328](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13675880629859269162,3604112848540219365)
 
 - **Target Recognition of 3-D Synthetic Aperture Radar Images via Deep Belief Network**  
   L Pu, X Zhang, S Wei, X Fan, Z Xiong.  

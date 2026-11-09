@@ -10,7 +10,6 @@ REPO = Path(__file__).resolve().parent.parent
 SCHOLAR_URL = "https://scholar.google.com/citations?hl=en&user=NRkFv4EAAAAJ&view_op=list_works&sortby=pubdate&pagesize=100"
 PROFILE_URL = "https://scholar.google.com/citations?user=NRkFv4EAAAAJ&hl=en&oi=sra"
 LINKEDIN_URL = "https://www.linkedin.com/in/paul-zhuoran-xiong-56567a90/"
-PHOTO_RE = r'https://scholar\.googleusercontent\.com/citations\?view_op=medium_photo&amp;user=NRkFv4EAAAAJ&amp;citpid=1'
 
 
 README_HEADER = """# Zhuoran Xiong
@@ -75,16 +74,6 @@ Please feel free to reach out for academic collaboration, research discussion, o
 def fetch(url: str) -> str:
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
     return urllib.request.urlopen(req, timeout=30).read().decode("utf-8", "ignore")
-
-
-def download_photo(page: str) -> bool:
-    m = re.search(PHOTO_RE, page)
-    if not m:
-        return False
-    img_url = html.unescape(m.group(0))
-    data = urllib.request.urlopen(urllib.request.Request(img_url, headers={"User-Agent": "Mozilla/5.0"}), timeout=30).read()
-    (REPO / "thumbnail.png").write_bytes(data)
-    return True
 
 
 def normalize_title(title: str) -> str:
@@ -236,11 +225,9 @@ def update_index(pubs):
 
 def main():
     page = fetch(SCHOLAR_URL)
-    photo_ok = download_photo(page)
     pubs = apply_meta(parse_pubs(page))
     (REPO / 'README.md').write_text(README_HEADER + render_readme_publications(pubs) + README_FOOTER)
     update_index(pubs)
-    print(f"photo_downloaded={photo_ok}")
     print(f"publications={len(pubs)}")
     for pub in pubs:
         print(f"- {pub['year']} | {pub['title']}")
